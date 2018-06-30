@@ -1,0 +1,59 @@
+body html {
+    margin: 0;
+    padding: 0;
+
+}
+
+.backgroundImage {
+    background-image: url("https://cdn.allwallpaper.in/wallpapers/2560x1600/15092/green-matrix-background-2560x1600-wallpaper.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+}
+
+.main {
+    background-color: rgb(219, 34, 142);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    border: solid 3px lime;
+    height: 90%;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px limegreen;
+    font-size: 50px;
+    text-decoration: underline;
+    
+}
+
+#start{
+    margin: auto;
+    margin-bottom: 10%;
+    text-shadow: 1px 1px limegreen;
+}
+.content{
+    margin: auto;
+    display: none;
+    margin-top: 10%;
+
+}
+
+p {
+    font-size: 25px;
+  
+}
+
+#clock{
+    color: limegreen;
+    text-shadow: 1px 1px white;
+}
+
+li{
+    font-size: 40px;
+}
