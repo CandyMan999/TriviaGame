@@ -15,7 +15,7 @@ body html {
 }
 
 .main {
-    background-color: rgb(219, 34, 142);
+    background-color: rgb(171, 188, 243);
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 10%;
@@ -55,5 +55,17 @@ p {
 }
 
 li{
-    font-size: 40px;
+    font-size: 30px;
+    color: rgb(28, 192, 28);
+}
+li:hover{
+   
+   cursor: -webkit-grab;
+    color: pink;
+} 
+
+
+#results{
+    display: none;
+    
 }
