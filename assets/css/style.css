@@ -52,6 +52,7 @@ p {
 #clock{
     color: limegreen;
     text-shadow: 1px 1px white;
+    font-size: 30px;
 }
 
 li{
@@ -67,5 +68,47 @@ li:hover{
 
 #results{
     display: none;
+    margin: auto;
     
+}
+#newGame {
+    display: none;
+    margin: auto;
+    color: red;
+    margin-top: 75px;
+}
+#right {
+    color: limegreen;
+    text-shadow: 1px 1px white;
+    font-size: 30px;
+
+}
+#wrong {
+    color: limegreen;
+    text-shadow: 1px 1px white;
+    font-size: 30px;
+
+}
+#unanswered {
+    color: limegreen;
+    text-shadow: 1px 1px white;
+    font-size: 30px;
+
+}
+#picture {
+    height: 400px;
+    width: 400px;
+    padding-bottom: 20px;
+    margin: auto;
+    padding-top: 25px;
+    
+}
+
+#text {
+    color: pink;
+    text-shadow: 2px 2px limegreen;
+    text-decoration: none;
+}
+.photo {
+    margin: auto;
 }

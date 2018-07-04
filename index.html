@@ -23,7 +23,7 @@
                             <div  class="container">
                                     <div class ="row">
                                         <div class="content" class="col-md-6 text-center">
-                                            <p>Time Remaining: <span id="clock">00:00</span></p>
+                                            <p>Time Remaining: <span id="clock"></span></p>
                                         </div>
     
                                     </div>
@@ -51,18 +51,32 @@
                                 <div class="container">
                                     <div class"row">
                                         <div id="results" class="col-md-8">
+                                            <h1 id="text"></h1>
                                             <p>Correct: <span id ="right"> 0 </span></p>
                                             <p>Wrong: <span id ="wrong"> 0 </span></p>
                                             <p>Unanswered: <span id ="unanswered"> 0 </span></p>
-                                            <div id= "image"> </div>
+                                            
+                                         <div class="row">  
+                                            <div class="photo" id="picture" class"col-md-10">
+                                                 
+                                            </div>
+                                         </div>   
+                                            
 
                                         </div>
+                                        <div class="row">
+                                                <div id="newGame" class="col-md-4 text-center">
+                                                        <button type="button" class="btn btn-outline-danger">Play Again</button> 
+                                                        <p>Percentage Right: <span id="percent">   </span>%</p>
+                    
+                                                </div>
+                                            </div>
                                     </div>
                                 </div>
                             
                                 <div class="row">
                                     <div id="start" class="col-md-4 text-center">
-                                            <button type="button" class="btn btn-outline-light">Start</button> 
+                                            <button id="startBtn" type="button" class="btn btn-outline-light">Start</button> 
         
                                     </div>
                                 </div>
